@@ -10,7 +10,7 @@ class LessServiceProvider extends ServiceProvider {
      */
     public function boot()
     {
-
+		$this->publishes([__DIR__ . '/../config/lesscmd.php' => config_path('lesscmd.php')], 'config');
     }
 
     /**
