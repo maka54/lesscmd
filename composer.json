@@ -1,0 +1,21 @@
+{
+    "name": "maka/lesscmd",
+    "description": "Laravel Less Builder",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maka",
+            "email": "54.maka@gmail.com"
+        }
+    ],
+	"require": {
+        "php": ">=5.6",
+        "illuminate/support": "5.1.*",
+		"oyejorge/less.php": "~1.7.0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maka\\Lesscmd\\": "src/"
+        }
+    }
+}
